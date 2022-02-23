@@ -1,0 +1,39 @@
+
+.weatherDayCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 1.5rem;
+}
+
+.weatherDayCard button{
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+}
+
+.weatherDayCard__group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.weatherDayCard__group img{
+    width: 9rem;
+}
+
+.weatherDayCard__group_temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.weatherDayCard p{
+    font-size: 2rem;
+}
