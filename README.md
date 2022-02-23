@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Live Demo
+## Live Demo
 
 url: https://stiaudd.github.io/React-weather-app/
 
