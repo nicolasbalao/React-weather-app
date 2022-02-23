@@ -34,7 +34,7 @@ code {
 
 @media screen and (max-height: 700px) {
 
-  body{
+  html{
     background-size: auto;
   }
   
