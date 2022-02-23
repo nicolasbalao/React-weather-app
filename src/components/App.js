@@ -23,7 +23,7 @@ function App() {
   //TODO: ADD functionality SEARCH LOCATION CITY WITH THE API GEOCODING
   const fetchApiGeocoding = async () => {
     const resp = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=2ce26d6ff6b3519b4858bc5796133eac`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=2ce26d6ff6b3519b4858bc5796133eac`
     );
 
     const data = await resp.json();
